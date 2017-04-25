@@ -1,0 +1,12 @@
+<h1>Random Results</h1>
+
+<h2>Minimum</h2>
+<p><%= @min.round(1) %></p>
+
+<h2>Maximum</h2>
+<p><%= @max.round(1) %></p>
+
+<h2>Random Number</h2>
+<p><%= @random.round(4) %></p>
+
+<a href="/random/results?min=<%= @min %>&max=<%= @max %>">Pick another random number</a>
